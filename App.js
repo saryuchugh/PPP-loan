@@ -16,7 +16,7 @@ export default class App extends React.Component {
 }
 var AppNavigator = createSwitchNavigator({
   MainScreen : MainScreen,
-
+  CheckboxScreen:CheckboxScreen,
   DetailsScreen:DetailsScreen,
   Extra:Extra
 });
